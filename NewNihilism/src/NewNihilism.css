@@ -1,3 +1,7 @@
+/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.4.1","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
+.buttonWrapper-1ZmCpA {
+	display: none;
+}
 /** ---- Server Area ---- **/
 .guilds-1q_RqH {
   border-right: none;
@@ -233,6 +237,7 @@
   width: auto;
   height: auto;
   max-width: 45px !important;
+  margin:0;
 }
 .reaction-1ELvT8 .emoji {
   width: 35px;

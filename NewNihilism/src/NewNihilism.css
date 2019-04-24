@@ -3,62 +3,75 @@
 	display: none;
 }
 /** ---- Server Area ---- **/
-.guilds-1q_RqH {
-  border-right: none;
-  position: relative;
-  margin-top: -10px;
-  margin-left: -4px;
-  padding: 20px;
+.wrapper-1Rf91z {
+  width: 55px;
 }
-.guilds-1q_RqH .guildInner-3DSoA4,
-.guilds-1q_RqH .guildsError-3cFMtY,
-.guilds-1q_RqH .guild-1EfMGQ,
-.guilds-1q_RqH .guild-1EfMGQ:first-child a {
-  width: 35px;
-  height: 35px;
-}
-.guild-1EfMGQ .avatar-small {
-  background-size: 35px 35px;
-}
-.guilds-1q_RqH .guildInner-3DSoA4 {
-  background-color: hsla(223, 5%, 3%, 0.4) !important;
-}
-.guilds-1q_RqH .guildIcon-CT-ZDq {
-  background-size: 35px 35px;
-  background-repeat: no-repeat;
-  height: 35px;
-  width: 35px;
-}
-.guilds-1q_RqH .noIcon-1a_FrS {
-  line-height: 35px;
-  font-size: 15px !important;
-}
-.guilds-1q_RqH .friendsOnline-_wi_fM,
-.guilds-1q_RqH .guildSeparator-1X4GQ1 {
+.friendsOnline-2JkivW,
+.guildSeparator-3s64Iy {
   display: none;
 }
-.guilds-1q_RqH .guildsAddInner-1KMFy- {
+.circleIconButton-jET_ig {
   opacity: 0.5;
   font-size: 35px;
-  top: -6px;
+  padding: 0 0 8px 1px;
 }
-.guilds-1q_RqH .guildsError-3cFMtY {
+.circleIconButton-jET_ig svg[name="Search"] {
+  margin-top: 7px;
+}
+.guildsError-b7zR5H {
   line-height: 33px;
-  padding-right: 1px;
 }
-.guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
-  transition: 0.2s ease-in-out all;
-  left: -21px;
-  height: 15px;
-  top: 42%;
+.guildsError-b7zR5H,
+.wrapper-25eVIn {
+  width: 35px;
+  height: 35px;
+  margin-left: -18px;
+}
+.listItem-2P_4kh + div:not(.listItem-2P_4kh) {
+  margin-bottom: -20px;
+}
+.svg-1X37T1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 20%;
+}
+.svg-1X37T1 [mask] {
+  mask: unset;
+}
+.svg-1X37T1 .circleIconButton-jET_ig {
+  width: 100%;
+  height: 100%;
+}
+.svg-1X37T1 svg[name="Nova_Add"] {
+  margin-top: 8px;
+}
+.item-2hkk8m {
+  height: 14px !important;
+  bottom: 24px;
   background: gray;
 }
-.guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq::before {
-  transition: 0.2s ease-in-out all;
-  left: -21px;
-  height: 30px;
-  top: 62%;
+.item-2hkk8m[style*="height: 8px;"] {
+  height: 20px !important;
+  bottom: 21px;
   background: darkgray;
+}
+.item-2hkk8m[style*="height: 40px;"] {
+  height: 27px !important;
+  bottom: 17px;
+  background: lightgray;
+}
+.numberBadge-2s8kKX {
+  border-radius: 20%;
+  padding-left: 2px;
+}
+.acronym-2mOFsV {
+  font-size: larger;
+}
+#app-mount .acronym-2mOFsV.selected-bZ3Lue,
+#app-mount .acronym-2mOFsV:hover,
+#app-mount .button-OhfaWu.selected-wSa2KV,
+.circleIconButton-jET_ig.selected-ugP_am {
+  background-color: #292B2F;
 }
 
 /** ---- Channel Area ---- **/
@@ -66,13 +79,22 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   overflow: visible;
-  width: 190px;
+  width: 200px;
 }
 .channels-Ie2l6A {
-  width: 190px;
+  width: 200px;
 }
-.channels-Ie2l6A .content-20Aix8 {
+.channels-Ie2l6A .searchBarInner-1_Tg2R {
+  width: 120px;
+  padding: 2px 1px;
+}
+.channels-Ie2l6A .content-3at_AU {
   border-radius: 0;
+}
+.channels-Ie2l6A .content-3at_AU .icon-1_QxNX {
+  height: 16px;
+  width: 16px;
+  margin: 0 4px 0 -1px;
 }
 .channels-Ie2l6A .containerDefault-1ZnADq {
   margin-left: -8px;
@@ -196,6 +218,13 @@
 }
 
 /** ---- Chat Area ---- **/
+.children-19S4PO .icon-22AiRD:not([name]) {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  top: 4px;
+  margin: 0 -4px;
+}
 .newMessagesBar-mujexs {
   background: #444;
 }
@@ -240,7 +269,7 @@
   margin:0;
 }
 .reaction-1ELvT8 .emoji {
-  width: 35px;
+  width: 25px;
   height: auto;
   margin: 2px 0;
 }
@@ -325,21 +354,25 @@ svg[name="Crown"] {
 }
 
 /** --- Friend Area ---- **/
-.titleText-3X-zRE {
-  position: relative;
-  padding-left: 3px;
-  cursor: pointer;
-}
-.titleText-3X-zRE .status-3fQvEa {
+#app-mount .title-3qD0b- .status-oxiHuE {
   background: transparent;
   display: block;
   position: absolute;
-  top: 2px !important;
-  left: 0 !important;
-  width: 14px !important;
-  height: 14px !important;
+  top: 4px !important;
+  left: 7px !important;
+  width: 18px !important;
+  height: 18px !important;
   border-radius: 10px !important;
   pointer-events: none;
+}
+.title-3qD0b- .divider-3FBTu8 {
+  margin: 0;
+}
+.children-19S4PO svg[name="Nova_At"] {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 5px;
 }
 .friendsColumnStatus-ZH4ho2 .status-oxiHuE {
   display: none;
@@ -370,6 +403,10 @@ svg[name="Crown"] {
 #app-mount .tabBar-1E2ExX .primary-3j8BhM {
   background-color: slategray !important;
 }
+#app-mount .tabBar-1E2ExX .primarySelected-3uHKZn {
+  background-color: darkslategray !important;
+  color: white !important;
+}
 #app-mount .friendsAction-__WNE9.friendsActionAccept-3mkemT:hover {
   background-color: darkgreen !important;
 }
@@ -380,19 +417,27 @@ svg[name="Crown"] {
 a[href="/channels/@me"] .wrapper-232cHJ {
   background-color: slategray;
 }
+.systemPad-3UxEGl .channel-2QD9_O a {
+  margin-left: 0;
+  border-radius: 0;
+  padding: 10px;
+}
 
 /** ---- Avatars and Statuses ---- **/
 .avatar-small,
 .avatarHint-1qgaV3,
 .avatarDefault-35WC3R,
 .avatarOffline-3GF27z,
+.avatarUploaderInner-3UNxY3,
 .status-oxiHuE,
 .image-33JSyf,
 .inner-1W0Bkn,
-.guildInner-3DSoA4,
-.guildsAdd-21_IdK,
-.guildsError-3cFMtY,
-.guildPlaceholder-1ioaid,
+.container-2td-dC,
+.circleIconButton-jET_ig,
+.homeButton-2Cw51C,
+.guildsError-b7zR5H,
+.dragfix-1wSxtO:active,
+.dragPlaceholder-D9-haY,
 .embedAuthorIcon--1zR3L,
 .displayAvatar-1wWlVM,
 .icon-3o6xvg {
@@ -409,6 +454,10 @@ a[href="/channels/@me"] .wrapper-232cHJ {
   border-width: 2px;
   top: -2px;
   left: -2px;
+}
+#app-mount .headerAvatar-zl6ti_ .status-oxiHuE {
+  top: 0;
+  left: 0;
 }
 #app-mount .statusProfile-3ynqtt {
   border-width: 3px;
@@ -704,7 +753,7 @@ a[href="/channels/@me"] .wrapper-232cHJ {
   border-color: silver;
   color: white !important;
 }
-.now-playing-add button {
+.nowPlayingAdd-1Kdmh_ button {
   margin-left: 5px;
 }
 .connectionDelete-2Odoln,
@@ -759,9 +808,11 @@ a[href="/channels/@me"] .wrapper-232cHJ {
 .authBox-hW6HRx .lookLink-9FtZy-:hover .contents-18-Yxp {
   background-image: none;
 }
-button:first-child + button:last-child,
 button:first-child + div:last-child button {
   margin-left: 5px;
+}
+button:first-child + button:last-child {
+  margin-right: 5px;
 }
 
 /** ---- Settings ---- **/
@@ -789,7 +840,7 @@ button:first-child + div:last-child button {
 }
 .valueChecked-m-4IJZ,
 .checked-3_4uQ9,
-.checkbox-inner input:checked + span,
+.checkboxElement-1qV33p:checked + span,
 .allowSelected-25S_i5 {
   background: darkgreen !important;
   border-color: darkgreen !important;
@@ -801,13 +852,13 @@ button:first-child + div:last-child button {
   background: #A52929;
   border-color: #A52929;
 }
-.checkbox input[type="checkbox"]:checked + span::after {
+input[type="checkbox"]:checked + span::after {
   border-color: #CCC !important;
 }
 .checkbox-1ix_J3 .focused-1T2lU0 {
   box-shadow: 0 0 0 2px hsla(220, 10%, 50%, 0.3) !important;
 }
-.wrapper-O5i5-0 .checkbox-inner span {
+.wrapper-O5i5-0 .checkboxInner-3yjcPe span {
   border-color: #111 !important;
 }
 .checked-3_4uQ9 polyline,
@@ -849,7 +900,7 @@ button:first-child + div:last-child button {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
   border: 2px dotted #222;
 }
-.emojiPicker-3m1S-j .search-bar-inner {
+.emojiPicker-3m1S-j .inner-3ErfOT {
   background: #2D2B2B !important;
   border: 1px solid rgba(40, 35, 35, 0.9) !important;
 }
@@ -949,20 +1000,31 @@ button:first-child + div:last-child button {
 }
 
 /** ---- Tooltips ---- **/
-.tooltips-FhwIyl .tooltip-1OS-Ti {
+.layerContainer-yqaFcK .tooltip-2QfLtc {
   background: #555;
 }
-.tooltips-FhwIyl .tooltip-1OS-Ti.bottom-19kp6S::after {
-  border-bottom-color: #555;
-}
-.tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY::after {
-  border-right-color: #555;
-}
-.tooltips-FhwIyl .tooltip-1OS-Ti.left-1wV7VO::after {
-  border-left-color: #555;
-}
-.tooltips-FhwIyl .tooltip-1OS-Ti.top-1pTh1F::after {
+.layerContainer-yqaFcK .tooltip-2QfLtc .tooltipPointer-3ZfirK {
   border-top-color: #555;
+}
+
+/** ---- Toolbar ---- **/
+.toolbar-1t6TWx .iconWrapper-2OrFZ1 {
+  margin: 0 2px;
+}
+.toolbar-1t6TWx > .iconWrapper-2OrFZ1:first-child {
+  padding-left: 3px;
+}
+.toolbar-1t6TWx .anchor-3Z-8Bb {
+  margin: -3px;
+}
+.toolbar-1t6TWx .search-36MZv- {
+  margin: 0 4px 0 1px;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1 svg {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 10%;
 }
 
 /** --- Scrollbars ---- **/
@@ -1483,5 +1545,8 @@ body #dl-log-button {
 div.ri-selected {
   background-color: darkslategray;
   padding: 5px;
+}
+.betterfriendcount-badge {
+  background-color: darkslategray;
 }
 
